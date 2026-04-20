@@ -19,7 +19,7 @@ int main(void){
         else if(input == answer){
         printf("%d ==?\n",input); 
         ++count;
-        printf("%d\n",input, count);
+        printf("%d\n",input);
         }
     }while(input != answer);
 
